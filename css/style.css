@@ -1,0 +1,98 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+/* <!-- start head --> */
+header{
+    height: 100vh;
+    
+    background-image: url(/imges/galaxy-burger.jpg);
+    /* background-repeat: no-repeat; */
+    background-position:center;
+    background-size: cover;
+   
+}
+.mm{
+    background-color: black;
+    opacity: .7;
+    height: 100vh;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+
+}
+nav ul li a:hover{
+color: rgb(46, 24, 154);
+background-color: aqua;
+font-size: 20px;
+text-transform: uppercase;
+
+}
+/* <!-- end head --> */
+
+/* start section */
+.section{
+margin-top: 200px;
+text-align: center;
+color: #fff;
+
+
+
+
+
+}
+.section h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.section p{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.section a{
+    color: rgb(13, 49, 211);
+    font-size: 20px;
+    text-decoration: none;
+}
+.section button a:hover{
+    border-radius: 80%;
+    color:black ;
+    font-size: 25px;
+    padding: 7px;
+}
+span{
+    color: red;
+    transform: uppercase;
+}
+
+
+
+
+
